@@ -1,10 +1,11 @@
 class SinglyLinkedList implements ILinkedList {
 
-    class Node extends ANode {
-        
+    class Node {
+        int data;
+        Node next;
 
         Node(int data) {
-            super(data);
+            this.data = data;
         }
 
     }
